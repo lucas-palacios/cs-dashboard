@@ -1,0 +1,5 @@
+update.py
+data/
+README.md
+__pycache__/
+*.pyc
