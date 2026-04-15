@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS Dashboard — Etendo Service Desk</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          background: #0f172a; color: #e2e8f0; padding: 36px 28px; min-height: 100vh; }
+  h1  { font-size: 1.55rem; font-weight: 700; color: #f8fafc; margin-bottom: 4px; }
+  .sub { color: #64748b; font-size: .85rem; margin-bottom: 32px; }
+
+  /* ── Cards ── */
+  .card { background: #1e293b; border-radius: 14px; padding: 24px;
+           margin-bottom: 22px; border: 1px solid #334155; }
+  .card-current { border-color: #6366f1; box-shadow: 0 0 0 1px #6366f133; }
+  .card-header { display: flex; align-items: center; gap: 10px;
+                  margin-bottom: 20px; flex-wrap: wrap; }
+  .qlabel  { font-size: 1.18rem; font-weight: 700; color: #f1f5f9; }
+  .ctag    { background: #6366f1; color: #fff; font-size: .68rem; font-weight: 700;
+              padding: 2px 9px; border-radius: 999px; letter-spacing: .05em; }
+  .ftag    { background: #334155; color: #94a3b8; font-size: .68rem; font-weight: 600;
+              padding: 2px 9px; border-radius: 999px; letter-spacing: .05em; }
+  .ctag-sm { color: #818cf8; font-size: .75rem; }
+  .upd     { margin-left: auto; color: #475569; font-size: .78rem; }
+
+  /* ── Metric cells ── */
+  .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px,1fr)); gap: 14px; }
+  .metric  { background: #0f172a; border-radius: 10px; padding: 16px; border: 1px solid #1e293b; }
+  .mtitle  { font-size: .72rem; color: #64748b; font-weight: 600;
+              text-transform: uppercase; letter-spacing: .06em; margin-bottom: 9px; }
+  .mvalue  { font-size: 2.1rem; font-weight: 800; line-height: 1; margin-bottom: 6px; color: #f1f5f9; }
+  .mvalue.green { color: #4ade80; }
+  .mvalue.red   { color: #f87171; }
+  .msub  { font-size: .78rem; color: #94a3b8; margin-bottom: 4px; }
+  .mdet  { font-size: .73rem; color: #475569; }
+  .warn  { color: #fbbf24; }
+
+  /* ── Historical table ── */
+  .stitle { font-size: .82rem; font-weight: 700; color: #475569;
+             text-transform: uppercase; letter-spacing: .08em; margin: 32px 0 12px; }
+  table { width: 100%; border-collapse: collapse; background: #1e293b;
+           border-radius: 14px; overflow: hidden; border: 1px solid #334155; }
+  th    { background: #0f172a; padding: 12px 16px; text-align: left;
+           font-size: .74rem; color: #64748b; text-transform: uppercase; letter-spacing: .05em; }
+  td    { padding: 14px 16px; font-size: .88rem; border-top: 1px solid #334155;
+           vertical-align: top; line-height: 1.5; }
+  td small { color: #64748b; font-size: .76rem; }
+  .rcur td { background: #1c1d3e; }
+  .ok   { color: #4ade80; font-weight: 600; }
+  .fail { color: #f87171; font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>CS Dashboard — Etendo Service Desk</h1>
+<p class="sub">Métricas de soporte por trimestre &nbsp;·&nbsp; generado el 2026-04-15</p>
+
+  <div class="card  card-current">
+    <div class="card-header">
+      <span class="qlabel">Q2 2026</span>
+      <span class="ctag">ACTUAL</span>
+      <span class="upd">actualizado: 2026-04-15</span>
+    </div>
+    <div class="metrics">
+      <div class="metric">
+        <div class="mtitle">⏱ SLO Resolución</div>
+        <div class="mvalue green">100.0%</div>
+        <div class="msub">cumplimiento · ✅ Sin vencimientos</div>
+        <div class="mdet">10 cerrados · 8 abiertos · 18 en scope</div>
+      </div>
+      <div class="metric">
+        <div class="mtitle">🕐 Dedicación Promedio</div>
+        <div class="mvalue green">1.41h</div>
+        <div class="msub">por ticket · ✅ OKR ≤ 4.15h</div>
+        <div class="mdet">17 tickets · 24.0h total</div>
+      </div>
+      <div class="metric">
+        <div class="mtitle">🤖 Chatbot IA</div>
+        <div class="mvalue">60.0%</div>
+        <div class="msub">tickets donde ayudó · score 3.5/5</div>
+        <div class="mdet">6/10 tickets</div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="qlabel">Q1 2026</span>
+      <span class="ftag">CERRADO</span>
+      <span class="upd">actualizado: 2026-03-17</span>
+    </div>
+    <div class="metrics">
+      <div class="metric">
+        <div class="mtitle">⏱ SLO Resolución</div>
+        <div class="mvalue green">100.0%</div>
+        <div class="msub">cumplimiento · ✅ Sin vencimientos</div>
+        <div class="mdet">73 cerrados · 24 abiertos · 97 en scope</div>
+      </div>
+      <div class="metric">
+        <div class="mtitle">🕐 Dedicación Promedio</div>
+        <div class="mvalue green">3.3h</div>
+        <div class="msub">por ticket · ✅ OKR ≤ 4.15h</div>
+        <div class="mdet">104 tickets · 343.25h total</div>
+      </div>
+      <div class="metric">
+        <div class="mtitle">🤖 Chatbot IA</div>
+        <div class="mvalue">10.3%</div>
+        <div class="msub">tickets donde ayudó · score 3.53/5</div>
+        <div class="mdet">12/116 tickets <span class="warn">⚠ 97 sin etiquetar</span></div>
+      </div>
+    </div>
+  </div>
+<div class="stitle">Histórico por trimestre</div>
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>⏱ SLO Resolución</th>
+      <th>🕐 Dedicación Prom.</th>
+      <th>🤖 Chatbot IA</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr class="rcur">
+    <td><strong>Q2 2026</strong><br><small class="ctag-sm">ACTUAL</small></td>
+    <td class="ok">100.0%<br>
+      <small>0 vencidos / 10 cerrados</small></td>
+    <td class="ok">1.41h<br>
+      <small>✅ OKR 4.15h &nbsp;·&nbsp; 24.0h total</small></td>
+    <td>60.0%<br>
+      <small>6/10 &nbsp;·&nbsp; avg 3.5/5</small></td>
+  </tr>
+  <tr >
+    <td><strong>Q1 2026</strong></td>
+    <td class="ok">100.0%<br>
+      <small>0 vencidos / 73 cerrados</small></td>
+    <td class="ok">3.3h<br>
+      <small>✅ OKR 4.15h &nbsp;·&nbsp; 343.25h total</small></td>
+    <td>10.3%<br>
+      <small>12/116 &nbsp;·&nbsp; avg 3.53/5</small></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
