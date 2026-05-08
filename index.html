@@ -50,6 +50,22 @@
   .rcur td { background: #1c1d3e; }
   .ok   { color: #4ade80; font-weight: 600; }
   .fail { color: #f87171; font-weight: 600; }
+
+  /* ── Solo-resolved block ── */
+  .solo-block { margin-top: 16px; padding: 14px 16px;
+                background: #0f172a; border-radius: 10px;
+                border: 1px solid #1e3a5f; }
+  .solo-title { font-size: .72rem; color: #64748b; font-weight: 600;
+                text-transform: uppercase; letter-spacing: .06em;
+                margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+  .solo-count { background: #1d4ed8; color: #bfdbfe; font-size: .7rem;
+                font-weight: 700; padding: 1px 8px; border-radius: 999px; }
+  .solo-list  { display: flex; flex-wrap: wrap; gap: 6px; }
+  .solo-badge { background: #1e3a5f; color: #93c5fd; font-size: .76rem;
+                font-weight: 600; padding: 3px 10px; border-radius: 6px;
+                text-decoration: none; border: 1px solid #1d4ed8;
+                transition: background .15s; }
+  .solo-badge:hover { background: #1d4ed8; color: #fff; }
 </style>
 </head>
 <body>
@@ -67,7 +83,7 @@
         <div class="mtitle">⏱ SLO Resolución</div>
         <div class="mvalue green">100.0%</div>
         <div class="msub">cumplimiento · ✅ Sin vencimientos</div>
-        <div class="mdet">28 cerrados · 15 abiertos · 43 en scope</div>
+        <div class="mdet">28 cerrados · 16 abiertos · 44 en scope</div>
       </div>
       <div class="metric">
         <div class="mtitle">🕐 Dedicación Promedio</div>
@@ -82,6 +98,10 @@
         <div class="mdet">15/30 tickets · score 3.27/5 <span class="warn">⚠ 4 sin etiquetar</span></div>
       </div>
     </div>
+      <div class="solo-block">
+        <div class="solo-title">🤖 Sin intervención humana &nbsp;<span class="solo-count">4</span></div>
+        <div class="solo-list"><a class="solo-badge" href="https://etendoproject.atlassian.net/browse/ESD-1728" target="_blank" rel="noopener">ESD-1728</a><a class="solo-badge" href="https://etendoproject.atlassian.net/browse/ESD-1714" target="_blank" rel="noopener">ESD-1714</a><a class="solo-badge" href="https://etendoproject.atlassian.net/browse/ESD-1713" target="_blank" rel="noopener">ESD-1713</a><a class="solo-badge" href="https://etendoproject.atlassian.net/browse/ESD-1709" target="_blank" rel="noopener">ESD-1709</a></div>
+      </div>
   </div>
   <div class="card">
     <div class="card-header">
@@ -109,6 +129,10 @@
         <div class="mdet">12/116 tickets · score 3.53/5 <span class="warn">⚠ 97 sin etiquetar</span></div>
       </div>
     </div>
+      <div class="solo-block">
+        <div class="solo-title">🤖 Sin intervención humana &nbsp;<span class="solo-count">0</span></div>
+        <div class="solo-list"><span class="mdet">ninguno registrado aún</span></div>
+      </div>
   </div>
 <div class="stitle">Histórico por trimestre</div>
 <table>
