@@ -1,0 +1,118 @@
+{
+  "id": "Q4_2026",
+  "label": "Q4 2026",
+  "start": "2026-10-01",
+  "end": "2026-12-31",
+  "frozen": false,
+  "last_updated": "2026-11-02 09:25",
+  "slo": {
+    "consulted_from": "2026-08-01",
+    "excluded": {
+      "cloud": 0,
+      "test": 0,
+      "internal": 2,
+      "excluded_tag": 2
+    },
+    "in_scope": 75,
+    "closed": 52,
+    "open": 23,
+    "breached": 0,
+    "met": 52,
+    "breach_rate": 0.0,
+    "compliance": 100.0
+  },
+  "dedicacion": {
+    "excluded": {
+      "cloud": 0,
+      "test": 0,
+      "internal": 1,
+      "excluded_tag": 0
+    },
+    "in_scope": 37,
+    "with_time": 32,
+    "without_time": 5,
+    "total_hours": 41.5,
+    "avg_hours": 1.12,
+    "okr_target": 1.7,
+    "okr_met": true,
+    "dist": {
+      "0h": 5,
+      "0-1h": 14,
+      "1-2h": 10,
+      "2-4h": 8,
+      "4-8h": 0,
+      ">8h": 0
+    },
+    "top10": [
+      {
+        "key": "ESD-1971",
+        "hours": 3.5
+      },
+      {
+        "key": "ESD-1999",
+        "hours": 3.25
+      },
+      {
+        "key": "ESD-1972",
+        "hours": 3.0
+      },
+      {
+        "key": "ESD-1986",
+        "hours": 2.25
+      },
+      {
+        "key": "ESD-2020",
+        "hours": 2.0
+      },
+      {
+        "key": "ESD-2014",
+        "hours": 2.0
+      },
+      {
+        "key": "ESD-2007",
+        "hours": 2.0
+      },
+      {
+        "key": "ESD-2002",
+        "hours": 2.0
+      },
+      {
+        "key": "ESD-2009",
+        "hours": 1.75
+      },
+      {
+        "key": "ESD-2015",
+        "hours": 1.5
+      }
+    ]
+  },
+  "chatbot": {
+    "excluded": {
+      "cloud": 0,
+      "test": 0,
+      "excluded_tag": 20,
+      "manual": 0
+    },
+    "in_scope": 20,
+    "labeled": 20,
+    "unlabeled": 0,
+    "unlabeled_keys": [],
+    "helped": 16,
+    "not_helped": 4,
+    "pct_total": 80.0,
+    "pct_labeled": 80.0,
+    "avg_score": 4.0,
+    "score_dist": {
+      "1": 0,
+      "2": 1,
+      "3": 3,
+      "4": 11,
+      "5": 5
+    },
+    "solo_resolved": [
+      "ESD-2010"
+    ],
+    "okr_target": 50.0,
+    "okr_met": true
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "Q2_2026",
+  "label": "Q2 2026",
+  "start": "2026-04-01",
+  "end": "2026-06-30",
+  "frozen": true,
+  "last_updated": "2026-07-14 11:56",
+  "slo": {
+    "consulted_from": "2026-02-01",
+    "excluded": {
+      "cloud": 109,
+      "test": 28,
+      "internal": 3,
+      "excluded_tag": 9
+    },
+    "in_scope": 141,
+    "closed": 130,
+    "open": 11,
+    "breached": 1,
+    "met": 129,
+    "breach_rate": 0.8,
+    "compliance": 99.2
+  },
+  "dedicacion": {
+    "excluded": {
+      "cloud": 0,
+      "test": 10,
+      "internal": 2,
+      "excluded_tag": 6
+    },
+    "in_scope": 123,
+    "with_time": 106,
+    "without_time": 17,
+    "total_hours": 259.02,
+    "avg_hours": 2.11,
+    "okr_target": 1.5,
+    "okr_met": false,
+    "dist": {
+      "0h": 17,
+      "0-1h": 20,
+      "1-2h": 34,
+      "2-4h": 30,
+      "4-8h": 20,
+      ">8h": 2
+    },
+    "top10": [
+      {
+        "key": "ESD-1745",
+        "hours": 8.75
+      },
+      {
+        "key": "ESD-1738",
+        "hours": 8.5
+      },
+      {
+        "key": "ESD-1786",
+        "hours": 7.5
+      },
+      {
+        "key": "ESD-1835",
+        "hours": 7.25
+      },
+      {
+        "key": "ESD-1837",
+        "hours": 6.75
+      },
+      {
+        "key": "ESD-1680",
+        "hours": 6.5
+      },
+      {
+        "key": "ESD-1737",
+        "hours": 6.0
+      },
+      {
+        "key": "ESD-1732",
+        "hours": 6.0
+      },
+      {
+        "key": "ESD-1820",
+        "hours": 5.75
+      },
+      {
+        "key": "ESD-1716",
+        "hours": 5.75
+      }
+    ]
+  },
+  "chatbot": {
+    "excluded": {
+      "cloud": 0,
+      "test": 10,
+      "excluded_tag": 13,
+      "manual": 3
+    },
+    "in_scope": 99,
+    "labeled": 97,
+    "unlabeled": 2,
+    "unlabeled_keys": [
+      {
+        "key": "ESD-1838",
+        "summary": "Problema con UoM y otros campos al crear líneas con OpenAPI"
+      },
+      {
+        "key": "ESD-1745",
+        "summary": "Problema con el MRP por la asignación de la cantidad recibida el las líneas de pedido de compra al completar el abarán de compra."
+      }
+    ],
+    "helped": 40,
+    "not_helped": 57,
+    "pct_total": 40.4,
+    "pct_labeled": 41.2,
+    "avg_score": 2.98,
+    "score_dist": {
+      "1": 14,
+      "2": 27,
+      "3": 16,
+      "4": 27,
+      "5": 13
+    },
+    "solo_resolved": [
+      "ESD-1844",
+      "ESD-1815",
+      "ESD-1797",
+      "ESD-1713"
+    ],
+    "okr_target": 60.0,
+    "okr_met": false
+  }
+}

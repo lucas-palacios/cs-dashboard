@@ -1,0 +1,640 @@
+{
+  "id": "Q1_2026",
+  "label": "Q1 2026",
+  "start": "2026-01-01",
+  "end": "2026-03-31",
+  "frozen": true,
+  "last_updated": "2026-07-14 11:56",
+  "slo": {
+    "consulted_from": "2025-11-01",
+    "excluded": {
+      "cloud": 151,
+      "test": 28,
+      "internal": 8,
+      "excluded_tag": 9
+    },
+    "in_scope": 137,
+    "closed": 134,
+    "open": 3,
+    "breached": 3,
+    "met": 131,
+    "breach_rate": 2.2,
+    "compliance": 97.8
+  },
+  "dedicacion": {
+    "excluded": {
+      "cloud": 141,
+      "test": 18,
+      "internal": 4,
+      "excluded_tag": 0
+    },
+    "in_scope": 165,
+    "with_time": 144,
+    "without_time": 21,
+    "total_hours": 494.75,
+    "avg_hours": 3.0,
+    "okr_target": 1.5,
+    "okr_met": false,
+    "dist": {
+      "0h": 21,
+      "0-1h": 13,
+      "1-2h": 24,
+      "2-4h": 59,
+      "4-8h": 38,
+      ">8h": 10
+    },
+    "top10": [
+      {
+        "key": "ESD-1360",
+        "hours": 13.5
+      },
+      {
+        "key": "ESD-1485",
+        "hours": 11.5
+      },
+      {
+        "key": "ESD-1647",
+        "hours": 11.25
+      },
+      {
+        "key": "ESD-1420",
+        "hours": 11.0
+      },
+      {
+        "key": "ESD-1559",
+        "hours": 10.25
+      },
+      {
+        "key": "ESD-1370",
+        "hours": 9.5
+      },
+      {
+        "key": "ESD-1341",
+        "hours": 9.5
+      },
+      {
+        "key": "ESD-1636",
+        "hours": 9.0
+      },
+      {
+        "key": "ESD-1456",
+        "hours": 8.75
+      },
+      {
+        "key": "ESD-1367",
+        "hours": 8.5
+      }
+    ]
+  },
+  "chatbot": {
+    "excluded": {
+      "cloud": 141,
+      "test": 18,
+      "excluded_tag": 0,
+      "manual": 0
+    },
+    "in_scope": 153,
+    "labeled": 25,
+    "unlabeled": 128,
+    "unlabeled_keys": [
+      {
+        "key": "ESD-1702",
+        "summary": "Partition Key Update Blocked by Non-Deferrable Compound FKs"
+      },
+      {
+        "key": "ESD-1701",
+        "summary": "Desfase horario en campos DateTime en exportaciones a Excel"
+      },
+      {
+        "key": "ESD-1699",
+        "summary": "CLONE - Traducción Módulos com.etendoerp.etendorx y com.etendoerp.bulk.posting.es_ES"
+      },
+      {
+        "key": "ESD-1697",
+        "summary": "El proceso programado \"Proceso alta en SII de facturas agrupadas\" falla desde que actualizamos a 1.39.2"
+      },
+      {
+        "key": "ESD-1696",
+        "summary": "Dependencias Commons Lang"
+      },
+      {
+        "key": "ESD-1695",
+        "summary": "Consulta sobre albaranes de proveedor pendientes de facturar"
+      },
+      {
+        "key": "ESD-1694",
+        "summary": "Re: ESD-1667 En las tareas de recepción, poder generar etiquetas de producto directamente al validar en la app"
+      },
+      {
+        "key": "ESD-1693",
+        "summary": "Eliminar líneas de factura"
+      },
+      {
+        "key": "ESD-1692",
+        "summary": "Metodo merge en Jsonutils"
+      },
+      {
+        "key": "ESD-1691",
+        "summary": "Consulta sobre soporte vigente para Etendo versión 23"
+      },
+      {
+        "key": "ESD-1690",
+        "summary": "Problema al asignar el tipo de documento al generar factura automáticamente"
+      },
+      {
+        "key": "ESD-1686",
+        "summary": "Ajustar mensaje de error, en verificación de dirección al exportar el fichero de una remesa cuaderno 34"
+      },
+      {
+        "key": "ESD-1685",
+        "summary": "Desaparición de un callout en Cabecera de Factura tras actualizar pack de localización"
+      },
+      {
+        "key": "ESD-1684",
+        "summary": "Fechas Sistemas de Facturación en Facturas de Compra"
+      },
+      {
+        "key": "ESD-1683",
+        "summary": "Error por permisos al realizar una impresión de Pedido o albarán"
+      },
+      {
+        "key": "ESD-1682",
+        "summary": "Callouts de tipo de IVA incorrectos (Copilot)"
+      },
+      {
+        "key": "ESD-1681",
+        "summary": "Generar Rectificativa desde Devolución de Cliente"
+      },
+      {
+        "key": "ESD-1680",
+        "summary": "Problema al asignar tercero después de informar el tipo de documento en pedido, albarán y factura"
+      },
+      {
+        "key": "ESD-1679",
+        "summary": "Error por permisos al realizar una impresión de factura"
+      },
+      {
+        "key": "ESD-1678",
+        "summary": "Request for Confirmation: Etendo Upgrade from 24.4.7 to 25.4.11"
+      },
+      {
+        "key": "ESD-1677",
+        "summary": "Multipart/form-data requests fail with \"Process ID missing in request\" when an Authorization Bearer token is present in New UI"
+      },
+      {
+        "key": "ESD-1676",
+        "summary": "Cómo vincular una reserva de existencias sin pedido a un pedido posterior"
+      },
+      {
+        "key": "ESD-1675",
+        "summary": "Preferencia \"Activar restricciones ley antifraude\""
+      },
+      {
+        "key": "ESD-1674",
+        "summary": "Consulta / posible mejora sobre créditos en moneda distinta a la asignada al tercero"
+      },
+      {
+        "key": "ESD-1672",
+        "summary": "Consulta sobre pasar parámetros a actionHandlerCall en onProcess"
+      },
+      {
+        "key": "ESD-1671",
+        "summary": "Seguimiento ESD-1561 activacion auditoria"
+      },
+      {
+        "key": "ESD-1670",
+        "summary": "Añadir líneas de inventario en la app de almacén"
+      },
+      {
+        "key": "ESD-1669",
+        "summary": "Mejora en la operativa de movimientos entre almacenes (transfers) y movimientos internos de ubicación dentro del mismo almace´n"
+      },
+      {
+        "key": "ESD-1668",
+        "summary": "Integración RFID en APP de Almacén"
+      },
+      {
+        "key": "ESD-1667",
+        "summary": "En las tareas de recepción, poder generar etiquetas de producto directamente al validar en la app"
+      },
+      {
+        "key": "ESD-1666",
+        "summary": "En la APP de almacén y dentro de una tarea de recepción, no permite editar cantidad ni seleccionar hueco"
+      },
+      {
+        "key": "ESD-1664",
+        "summary": "Nueva UI"
+      },
+      {
+        "key": "ESD-1663",
+        "summary": "SII Canarias: Incorrect calculation of ImporteTotal and CuotaDeducible with withholding (IGIC vs IVA inconsistency)"
+      },
+      {
+        "key": "ESD-1658",
+        "summary": "CLONE - Generación \"Trial Balance\" en excel con nombre de cuenta cortado"
+      },
+      {
+        "key": "ESD-1657",
+        "summary": "Generación \"Trial Balance\" en excel con nombre de cuenta cortado"
+      },
+      {
+        "key": "ESD-1656",
+        "summary": "Problemas al reactivar movimiento de reserva"
+      },
+      {
+        "key": "ESD-1653",
+        "summary": "Error de pre-validación SII al enviar factura de importación DUA"
+      },
+      {
+        "key": "ESD-1652",
+        "summary": "Error envío SII Factura (Proveedor)"
+      },
+      {
+        "key": "ESD-1651",
+        "summary": "Marca de agua en documentos en borrador"
+      },
+      {
+        "key": "ESD-1650",
+        "summary": "Problema general con entorno Etendo"
+      },
+      {
+        "key": "ESD-1647",
+        "summary": "Liquidación de remesa con fecha incorrecta (Período no existente)"
+      },
+      {
+        "key": "ESD-1646",
+        "summary": "Error con descripción incorrecta al eliminar transacción de la cuenta financiera"
+      },
+      {
+        "key": "ESD-1637",
+        "summary": "Método DELETE OpenAPI Request"
+      },
+      {
+        "key": "ESD-1636",
+        "summary": "Campos obligatorios con OpenAPI Request"
+      },
+      {
+        "key": "ESD-1635",
+        "summary": "Gemini provider not supported in Copilot (Unsupported model_provider='gemini') in Etendo 25 with Copilot Bundle 3.12"
+      },
+      {
+        "key": "ESD-1631",
+        "summary": "CLONE - Error al \"Seleccionar Facturas y Pedidos\" desde \"Remesa\" - Eliminación de líneas ya creadas"
+      },
+      {
+        "key": "ESD-1630",
+        "summary": "Error After Adding Custom Modules in Etendo25 (25.4.7)"
+      },
+      {
+        "key": "ESD-1627",
+        "summary": "Consulta sobre funcionalidades introducidas por la Ley Antifraude y mejora de mensajes de error en restricciones de eliminación"
+      },
+      {
+        "key": "ESD-1564",
+        "summary": "Uso del check “Es rectificativo” en \"Facturas (Proveedor)"
+      },
+      {
+        "key": "ESD-1563",
+        "summary": "Problemas al reactivar movimiento de reserva"
+      },
+      {
+        "key": "ESD-1562",
+        "summary": "Actualizacion 303"
+      },
+      {
+        "key": "ESD-1561",
+        "summary": "Auditoria ley antifraude"
+      },
+      {
+        "key": "ESD-1560",
+        "summary": "FK constraints referencing partitioned tables are silently destroyed"
+      },
+      {
+        "key": "ESD-1556",
+        "summary": "Error al importar dataset 347"
+      },
+      {
+        "key": "ESD-1555",
+        "summary": "Consulta técnica: Alineación con cambios en el Core de Openbravo respecto a la subida de ficheros (FileItem -> FileUpload)"
+      },
+      {
+        "key": "ESD-1554",
+        "summary": "Error sii en version 4.7"
+      },
+      {
+        "key": "ESD-1552",
+        "summary": "Copilot tasks incorrectly change status to In Progress when API key runs out of tokens"
+      },
+      {
+        "key": "ESD-1551",
+        "summary": "El proceso Heartbeat finaliza con error"
+      },
+      {
+        "key": "ESD-1550",
+        "summary": "HQL widget to show product, attribute, storage bin, qty on hand"
+      },
+      {
+        "key": "ESD-1548",
+        "summary": "Errores de escalado de Etendo Copilot al minimizarlo "
+      },
+      {
+        "key": "ESD-1545",
+        "summary": "Mejora “Tipo de remesa: Pago / Cobro” y filtros automáticos en pop-ups"
+      },
+      {
+        "key": "ESD-1543",
+        "summary": "Cambios publicados en la última versión de Etendo Copilot (Copilot Extensions)"
+      },
+      {
+        "key": "ESD-1542",
+        "summary": "Últimos cambios publicados del Modelo tributario 303"
+      },
+      {
+        "key": "ESD-1532",
+        "summary": "Problema actualizacion pack localizacion 24.x con dependencias SII"
+      },
+      {
+        "key": "ESD-1519",
+        "summary": "Error incorrectamente lanzado al enviar al SII con Impuesto de Aplicación IVA"
+      },
+      {
+        "key": "ESD-1518",
+        "summary": "CLONE - Error al filtrar/ordenar la ventana \"Cierre de año\", pestaña \"Contabilidad\""
+      },
+      {
+        "key": "ESD-1517",
+        "summary": "Completado de albaranes muy lento en últimas versiones"
+      },
+      {
+        "key": "ESD-1516",
+        "summary": "Ultima version bundle localizacion en 25 sin dataset 347"
+      },
+      {
+        "key": "ESD-1515",
+        "summary": "Ultima version bundle localizacion en 24 sin dataset 303"
+      },
+      {
+        "key": "ESD-1508",
+        "summary": "Actualización dataset Modelo 303 2026 reactiva impuestos desactivados"
+      },
+      {
+        "key": "ESD-1507",
+        "summary": "Actualización del modelo 347"
+      },
+      {
+        "key": "ESD-1495",
+        "summary": "Error al eliminar transacción de cuenta financiera con restricciones antifraude"
+      },
+      {
+        "key": "ESD-1490",
+        "summary": "Problema con el SII al Enviar Facturas de una Organización que Tributa en la Hacienda Foral Guipúzcoa"
+      },
+      {
+        "key": "ESD-1489",
+        "summary": "Modelo 347 - Gestión por taxid (en lugar de por c_bpartner_id)"
+      },
+      {
+        "key": "ESD-1487",
+        "summary": "No se puede crear pagos desde reconciliación"
+      },
+      {
+        "key": "ESD-1486",
+        "summary": "En la última versión de Etendo +  verifactu +  ley antifraude baja el performance drásticamente"
+      },
+      {
+        "key": "ESD-1485",
+        "summary": "CLONE - Conexiones abiertas en BBDD relacionadas con Verifactu"
+      },
+      {
+        "key": "ESD-1484",
+        "summary": "Error al actualizar a 4.5 con POS"
+      },
+      {
+        "key": "ESD-1483",
+        "summary": "Error en la creación de múltiples líneas con PurchaseInvoiceLine Api"
+      },
+      {
+        "key": "ESD-1479",
+        "summary": "Error al Generar un Cobro para Conciliar una Línea de Extracto Bancario"
+      },
+      {
+        "key": "ESD-1475",
+        "summary": "Issues Observed While Using Copilot with Etendo 24.4.7 Classic"
+      },
+      {
+        "key": "ESD-1472",
+        "summary": "Unable to install the needed modules for Etendo Mobile (which is blocking the next step of a Pilot with an important prospect)"
+      },
+      {
+        "key": "ESD-1469",
+        "summary": "BATIK library conflict causes error when generating JasperReports with SVG/barcodes"
+      },
+      {
+        "key": "ESD-1468",
+        "summary": "Antifraud module generates corrupted PDFs when printing invoices/sales orders in production without configured certificate"
+      },
+      {
+        "key": "ESD-1464",
+        "summary": "Multiple Background Queries Executing on Production Server"
+      },
+      {
+        "key": "ESD-1463",
+        "summary": "No se muestra la descripción al adjuntar fichero"
+      },
+      {
+        "key": "ESD-1462",
+        "summary": "Etendo Copilot: Problemas de legibilidad/usabilidad"
+      },
+      {
+        "key": "ESD-1461",
+        "summary": "InvoiceLine REST API multiplies line amounts by 100 when creating lines via POSTPurchaseInvoiceLine"
+      },
+      {
+        "key": "ESD-1458",
+        "summary": "sugerencia mejora popup de envío de email "
+      },
+      {
+        "key": "ESD-1456",
+        "summary": "Me gustaria saber en que estado está mi ticket ESD-1274"
+      },
+      {
+        "key": "ESD-1455",
+        "summary": "Re: ESD-1399 Se pueden descontabilizar facturas con ingreso o gasto postpuesto aunque los periodos estén cerrados"
+      },
+      {
+        "key": "ESD-1445",
+        "summary": "Modificación en fichero TXT del Modelo 347/2025"
+      },
+      {
+        "key": "ESD-1438",
+        "summary": "Automatic Auto-Restart and Dump Generation for Tomcat in ISO image"
+      },
+      {
+        "key": "ESD-1422",
+        "summary": "Módulo remesas ISO 20022"
+      },
+      {
+        "key": "ESD-1420",
+        "summary": "Problemas al borrar un pedido"
+      },
+      {
+        "key": "ESD-1404",
+        "summary": "Trigger etvfac_historical_data_trg da un error \"value too long for type character varying(60)\""
+      },
+      {
+        "key": "ESD-1403",
+        "summary": "Propuesta de mejora: asignación automática de Fecha de Operación a partir de Fecha Contable"
+      },
+      {
+        "key": "ESD-1402",
+        "summary": "Re: ESD-1398 En el informe \"Not posted document\" que se muestre una nueva columna con el \"Accounting status\" de cada registro"
+      },
+      {
+        "key": "ESD-1400",
+        "summary": "Error al \"Seleccionar Facturas y Pedidos\" desde \"Remesa\" - Eliminación de líneas ya creadas"
+      },
+      {
+        "key": "ESD-1399",
+        "summary": "Se pueden descontabilizar facturas con ingreso o gasto postpuesto aunque los periodos estén cerrados"
+      },
+      {
+        "key": "ESD-1398",
+        "summary": "En el informe \"Not posted document\" que se muestre una nueva columna con el \"Accounting status\" de cada registro"
+      },
+      {
+        "key": "ESD-1397",
+        "summary": "Impuesto especial sobre los envases de plástico no reutilizables"
+      },
+      {
+        "key": "ESD-1396",
+        "summary": "Acumulación de temporales en /var/lib/tomcat/temp (+~JF*.tmp, swap_*) ~10GB"
+      },
+      {
+        "key": "ESD-1394",
+        "summary": "Error al reactivar transacción de cuenta financiera con tipo de cambio asociado"
+      },
+      {
+        "key": "ESD-1393",
+        "summary": "Reactivar transaccion cuenta financiera"
+      },
+      {
+        "key": "ESD-1392",
+        "summary": "Creacion de indices adicionales sobre tabla c_bpartner en distribuciones de etendo"
+      },
+      {
+        "key": "ESD-1391",
+        "summary": "CLONE - [PROCESAR COMISIÓN] Consulta de cálculo a tomar  - multimoneda"
+      },
+      {
+        "key": "ESD-1389",
+        "summary": "CLONE - Traducción trial balance"
+      },
+      {
+        "key": "ESD-1388",
+        "summary": "Explotar Fases en Orden de Fabricación sin Versión Activa de Plan de Producción"
+      },
+      {
+        "key": "ESD-1385",
+        "summary": "Problema al añadir cobros. Grid no carga"
+      },
+      {
+        "key": "ESD-1384",
+        "summary": "Diferencias entre importes de cobro y transacciones de cuentas financieras"
+      },
+      {
+        "key": "ESD-1383",
+        "summary": "Lentitud en trigger para anti fraude"
+      },
+      {
+        "key": "ESD-1381",
+        "summary": "PSD2 Financial Extensions"
+      },
+      {
+        "key": "ESD-1380",
+        "summary": "Traduccion bundle copilot"
+      },
+      {
+        "key": "ESD-1379",
+        "summary": "Trigger etaf_forbid_finacctran_mod_trg"
+      },
+      {
+        "key": "ESD-1378",
+        "summary": "Más de un coste disponible para misma organización"
+      },
+      {
+        "key": "ESD-1377",
+        "summary": "Conexiones abiertas en BBDD relacionadas con Verifactu"
+      },
+      {
+        "key": "ESD-1376",
+        "summary": "Traducción Módulos com.etendoerp.etendorx y com.etendoerp.bulk.posting.es_ES"
+      },
+      {
+        "key": "ESD-1375",
+        "summary": "Update/remove commons-compress:1.21 in Core due to incompatibility with Apache POI 5.4.0 (affects Verifactu XLSX export)"
+      },
+      {
+        "key": "ESD-1374",
+        "summary": "CLONE - Copilot"
+      },
+      {
+        "key": "ESD-1373",
+        "summary": "Will the new UI (that is in alpha) migrate existing user \"saved views\" that are based on smartclient version 8?"
+      },
+      {
+        "key": "ESD-1372",
+        "summary": "When using the Supervisor with Bulk Task Creator, uploading a ZIP file to create tasks generates ambiguity"
+      },
+      {
+        "key": "ESD-1371",
+        "summary": "Urgente - Error envío SII factura proveedor IVA 4%, enviado al SII con el tipo del 0% (Diciembre 2025)"
+      },
+      {
+        "key": "ESD-1370",
+        "summary": "Traducción trial balance"
+      },
+      {
+        "key": "ESD-1368",
+        "summary": "Error envío factura (proveedor) al SII con iutilización de impuesto \"Inversión Sujeto Pasivo UE 21%\""
+      },
+      {
+        "key": "ESD-1367",
+        "summary": "Error al filtrar/ordenar la ventana \"Cierre de año\", pestaña \"Contabilidad\""
+      },
+      {
+        "key": "ESD-1363",
+        "summary": "Partition Triggers Missing UPDATE Event Handler"
+      },
+      {
+        "key": "ESD-1362",
+        "summary": "Missing Primary FK Triggers in Partitioning Module"
+      }
+    ],
+    "helped": 17,
+    "not_helped": 8,
+    "pct_total": 11.1,
+    "pct_labeled": 68.0,
+    "avg_score": 3.6,
+    "score_dist": {
+      "1": 3,
+      "2": 2,
+      "3": 3,
+      "4": 11,
+      "5": 6
+    },
+    "solo_resolved": [
+      "ESD-1698",
+      "ESD-1694",
+      "ESD-1678",
+      "ESD-1677",
+      "ESD-1653",
+      "ESD-1650",
+      "ESD-1542",
+      "ESD-1508",
+      "ESD-1396",
+      "ESD-1394"
+    ],
+    "okr_target": 60.0,
+    "okr_met": false
+  }
+}

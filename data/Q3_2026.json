@@ -1,0 +1,124 @@
+{
+  "id": "Q3_2026",
+  "label": "Q3 2026",
+  "start": "2026-07-01",
+  "end": "2026-09-30",
+  "frozen": true,
+  "last_updated": "2026-10-07 08:59",
+  "slo": {
+    "consulted_from": "2026-05-01",
+    "excluded": {
+      "cloud": 0,
+      "test": 11,
+      "internal": 4,
+      "excluded_tag": 11
+    },
+    "in_scope": 99,
+    "closed": 89,
+    "open": 10,
+    "breached": 0,
+    "met": 89,
+    "breach_rate": 0.0,
+    "compliance": 100.0
+  },
+  "dedicacion": {
+    "excluded": {
+      "cloud": 0,
+      "test": 1,
+      "internal": 7,
+      "excluded_tag": 7
+    },
+    "in_scope": 89,
+    "with_time": 83,
+    "without_time": 6,
+    "total_hours": 181.52,
+    "avg_hours": 2.04,
+    "okr_target": 1.7,
+    "okr_met": false,
+    "dist": {
+      "0h": 6,
+      "0-1h": 18,
+      "1-2h": 26,
+      "2-4h": 29,
+      "4-8h": 10,
+      ">8h": 0
+    },
+    "top10": [
+      {
+        "key": "ESD-1918",
+        "hours": 7.75
+      },
+      {
+        "key": "ESD-1904",
+        "hours": 7.5
+      },
+      {
+        "key": "ESD-1832",
+        "hours": 7.5
+      },
+      {
+        "key": "ESD-1862",
+        "hours": 6.5
+      },
+      {
+        "key": "ESD-1902",
+        "hours": 5.5
+      },
+      {
+        "key": "ESD-1945",
+        "hours": 4.75
+      },
+      {
+        "key": "ESD-1897",
+        "hours": 4.75
+      },
+      {
+        "key": "ESD-1886",
+        "hours": 4.5
+      },
+      {
+        "key": "ESD-1924",
+        "hours": 4.0
+      },
+      {
+        "key": "ESD-1882",
+        "hours": 4.0
+      }
+    ]
+  },
+  "chatbot": {
+    "excluded": {
+      "cloud": 0,
+      "test": 1,
+      "excluded_tag": 28,
+      "manual": 0
+    },
+    "in_scope": 62,
+    "labeled": 61,
+    "unlabeled": 1,
+    "unlabeled_keys": [
+      {
+        "key": "ESD-1904",
+        "summary": "COPILOT: Purchase Invoice. Problema con los decimales"
+      }
+    ],
+    "helped": 37,
+    "not_helped": 24,
+    "pct_total": 59.7,
+    "pct_labeled": 60.7,
+    "avg_score": 3.57,
+    "score_dist": {
+      "1": 4,
+      "2": 6,
+      "3": 14,
+      "4": 25,
+      "5": 12
+    },
+    "solo_resolved": [
+      "ESD-1935",
+      "ESD-1898"
+    ],
+    "okr_target": 50.0,
+    "okr_met": true
+  }
+}

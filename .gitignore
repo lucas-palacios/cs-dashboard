@@ -1,5 +1,6 @@
-update.py
-data/
-README.md
 __pycache__/
 *.pyc
+.env
+*.xlsx
+.claude/
+**/.claude/
